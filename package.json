@@ -1,0 +1,15 @@
+{
+  "name": "rookie_trombi",
+  "version": "1.0.0",
+  "description": "Ceci est le futur trombinoscope du rookie club ! On le fait tout à la mano....",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.24.6",
+    "gulp": "^3.9.1"
+  }
+}
