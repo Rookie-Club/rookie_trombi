@@ -1,20 +1,24 @@
-*{
-	margin: 0px;
-	padding: 0px;
+* {
+  margin: 0;
+  padding: 0;
 }
 
-
-html{
-	background-color: grey;
+html {
+  background-color: grey;
 }
 
-body{
-	margin: 2% 10% 2% 10%;
-	padding: 10px 10px 10px 10px;
-	background-color: white;
+body {
+  margin: 2% 10% 2% 10%;
+  padding: 10px 10px 10px 10px;
+  background-color: white;
 }
 
-section{
-	border: solid;
-	margin: 10px 0 0 0;
+.ligne {
+  display: flex;
+}
+
+.carte {
+  border: solid;
+  flex-grow: 1;
+  margin: 10px 0 0 0;
 }
