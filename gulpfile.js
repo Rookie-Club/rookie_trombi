@@ -1,20 +1,16 @@
 var gulp = require('gulp');
 var browserSync = require('browser-sync').create();
 
-gulp.task('hello', function(){
-	console.log('Hello!');
-});
-
 gulp.task('browserSync', function() {
 	browserSync.init({
 		server: {
-			baseDir: 'app'
+			baseDir: 'www'
 		},
 	});
 });
 
 gulp.task('watch', ['browserSync'], function(){
-	gulp.watch('./app/index.html', browserSync.reload);
-	gulp.watch('./app/style.css', browserSync.reload);
-	gulp.watch('./app/script.js', browserSync.reload);
+	gulp.watch('./www/index.html', browserSync.reload);
+	gulp.watch('./www/style.css', browserSync.reload);
+	gulp.watch('./www/script.js', browserSync.reload);
 });
