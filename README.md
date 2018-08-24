@@ -5,7 +5,8 @@ On le fait tout à la mano....
 
 # Pour le faire tourner
 
-`npm install`
+`cd _tools && npm install`
+`cd _tools && npm start`
 
-`./node_modules/.bin/gulp watch`
+Ou un autre outil que vous avez sous la main pour servir des fichiers statiques.
 
